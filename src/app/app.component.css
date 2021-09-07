@@ -1,0 +1,15 @@
+.bg-color {
+  background: rgb(65, 136, 189);
+  background: linear-gradient(
+    90deg,
+    rgba(65, 136, 189, 1) 5%,
+    rgba(177, 0, 246, 0.5662640056022409) 100%
+  );
+  min-height: 100%;
+}
+
+.nav-bar {
+  display: flex;
+  justify-content: center;
+  background-color: #673ab7;
+}

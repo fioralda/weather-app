@@ -1,0 +1,14 @@
+{
+  "/api/*": {
+    "target": "https://www.metaweather.com/api",
+    "secure": true,
+    "changeOrigin": true,
+    "logLevel": "debug"
+  },
+  "/static/*": {
+    "target": "https://www.metaweather.com/static",
+    "secure": true,
+    "changeOrigin": true,
+    "logLevel": "debug"
+  }
+}

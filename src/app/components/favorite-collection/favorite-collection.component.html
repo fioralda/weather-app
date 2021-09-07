@@ -1,0 +1,12 @@
+<div *ngIf="savedCities != null">
+  <div *ngFor="let city of savedCities" class='fix-whole-size'>
+    <mat-card class='mat-card'>
+      <mat-card-title>{{city.title}}</mat-card-title>
+      <mat-card-actions>
+        <button mat-button [routerLink]="['/details',city.woeid]">View Details</button>
+        <button mat-button (click)="onDelete(city)">Delete</button>
+      </mat-card-actions>
+    </mat-card>
+  </div>
+
+</div>

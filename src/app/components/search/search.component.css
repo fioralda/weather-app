@@ -1,0 +1,54 @@
+.basic-form {
+  display: flex;
+  justify-content: center;
+  background-repeat: no-repeat;
+  position: relative;
+}
+.example-form {
+  margin-top: 3%;
+}
+
+.gray-cloud {
+  position: absolute;
+  background-image: url("./assets/gray.svg");
+  background-repeat: no-repeat;
+  width: 200px;
+  height: 300px;
+  left: 70%;
+}
+
+.gray-cloud-2 {
+  position: absolute;
+  background-image: url("./assets/gray.svg");
+  background-repeat: no-repeat;
+  width: 400px;
+  height: 300px;
+  right: 60%;
+  top: 40%;
+}
+
+.list-of-cities {
+  display: flex;
+  justify-content: center;
+  padding-top: 3%;
+}
+
+.mat-card {
+  width: 500px;
+}
+
+.input-search {
+  display: flex;
+  margin-bottom: 5%;
+}
+
+.btn {
+  display: inline;
+  margin-left: 10px;
+}
+
+.mat-spinner {
+  display: flex;
+  justify-content: center;
+  padding-top: 3%;
+}
